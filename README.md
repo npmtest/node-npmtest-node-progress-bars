@@ -1,6 +1,6 @@
 # npmtest-node-progress-bars
 
-#### test coverage for  [node-progress-bars (v1.0.5)](https://github.com/bubkoo/ascii-progress)  [![npm package](https://img.shields.io/npm/v/npmtest-node-progress-bars.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-progress-bars) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-progress-bars.svg)](https://travis-ci.org/npmtest/node-npmtest-node-progress-bars)
+#### basic test coverage for  [node-progress-bars (v1.0.5)](https://github.com/bubkoo/ascii-progress)  [![npm package](https://img.shields.io/npm/v/npmtest-node-progress-bars.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-progress-bars) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-progress-bars.svg)](https://travis-ci.org/npmtest/node-npmtest-node-progress-bars)
 
 #### Ascii progress-bar(s) in the terminal.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-progress-bars/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-progress-bars/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-progress-bars/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-progress-bars/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-progress-bars/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-progress-bars/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-node-progress-bars/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-node-progress-bars/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-progress-bars/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-progress-bars/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-node-progress-bars/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-progress-bars/build/coverage.html/index.html)
 
@@ -83,7 +83,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.0.5"
+    "version": "1.0.5",
+    "bin": {}
 }
 ```
 
